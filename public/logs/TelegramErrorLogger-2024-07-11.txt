@@ -1,0 +1,123 @@
+============[Date]============
+[ 2024-07-11 22:24:47  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3724909
+ref.message.message_id= 57
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1720736686
+ref.message.text= /back
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= /back
+ref.message_id= 57
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u06af\u0648\u06af\u0644","callback_data":"\/google"},{"text":"\u0645\u0627\u06cc\u06a9\u0631\u0648\u0633\u0627\u0641\u062a","callback_data":"\/microsoft"}],[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a","callback_data":"\/back"}]]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(37): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\TelegramController.php(18): App\Helpers\TelegramBotService->editMessage('/back', Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\TelegramController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-11 22:24:49  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3724910
+ref.message.message_id= 58
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1720736688
+ref.message.text= /back
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 5
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= /back
+ref.message_id= 58
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u06af\u0648\u06af\u0644","callback_data":"\/google"},{"text":"\u0645\u0627\u06cc\u06a9\u0631\u0648\u0633\u0627\u0641\u062a","callback_data":"\/microsoft"}],[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a","callback_data":"\/back"}]]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(37): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\TelegramController.php(18): App\Helpers\TelegramBotService->editMessage('/back', Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\TelegramController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-11 22:24:58  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message can't be edited
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3724911
+ref.message.message_id= 59
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1720736697
+ref.message.text= سلام
+
+
+[ref]
+ref.text= سلام
+ref.message_id= 59
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u06af\u0648\u06af\u0644","callback_data":"\/google"},{"text":"\u0645\u0627\u06cc\u06a9\u0631\u0648\u0633\u0627\u0641\u062a","callback_data":"\/microsoft"}],[{"text":"\u0628\u0627\u0632\u06af\u0634\u062a","callback_data":"\/back"}]]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(37): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\TelegramController.php(18): App\Helpers\TelegramBotService->editMessage('\xD8\xB3\xD9\x84\xD8\xA7\xD9\x85', Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\TelegramController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+

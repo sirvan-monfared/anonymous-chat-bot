@@ -1,0 +1,1240 @@
+============[Date]============
+[ 2024-07-18 01:54:51  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725055
+ref.callback_query.id= 4025614894857495411
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 232
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267689
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 232
+ref.reply_markup= {"remove_keyboard":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL)
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 01:54:52  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725055
+ref.callback_query.id= 4025614894857495411
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 232
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267689
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"remove_keyboard":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 01:55:19  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725057
+ref.callback_query.id= 4025614895671957886
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 234
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267717
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 234
+ref.reply_markup= {"remove_keyboard":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 01:55:19  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725057
+ref.callback_query.id= 4025614895671957886
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 234
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267717
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"remove_keyboard":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 01:57:30  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725061
+ref.callback_query.id= 4025614896500933216
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 238
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267848
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 238
+ref.reply_markup.remove_keyboard= true
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(44): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 01:57:31  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725061
+ref.callback_query.id= 4025614896500933216
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 238
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267848
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup.remove_keyboard= true
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(44): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 01:59:05  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" must be of type Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725063
+ref.callback_query.id= 4025614895315476766
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 240
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267943
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 240
+ref.reply_markup= {"inline_keyboard":{"remove_keyboard":true}}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 01:59:05  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" must be of type Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725063
+ref.callback_query.id= 4025614895315476766
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 240
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267943
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"inline_keyboard":{"remove_keyboard":true}}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 01:59:29  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725065
+ref.callback_query.id= 4025614895243536305
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 242
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267967
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 242
+ref.reply_markup= {"inline_keyboard":[{"remove_keyboard":true}]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 01:59:29  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725065
+ref.callback_query.id= 4025614895243536305
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 242
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721267967
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"inline_keyboard":[{"remove_keyboard":true}]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:00:09  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725067
+ref.callback_query.id= 4025614894863425293
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 244
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721268007
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 244
+ref.reply_markup= {"remove_keyboard":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 02:00:09  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725067
+ref.callback_query.id= 4025614894863425293
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 244
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721268007
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"remove_keyboard":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:01:23  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725069
+ref.callback_query.id= 4025614895175288507
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 246
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721268081
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 246
+ref.reply_markup= %7B%22remove_keyboard%22%3Atrue%7D
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(27): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 02:01:23  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse reply keyboard markup JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725069
+ref.callback_query.id= 4025614895175288507
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 246
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721268081
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= %7B%22remove_keyboard%22%3Atrue%7D
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(37): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:04:30  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725072
+ref.message.message_id= 249
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1721268270
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u0646\u0627\u0634\u0646\u0627\u0633","request_contact":"","request_location":"\/request"}]]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint('sendMessage', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(27): Telegram->sendMessage(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(21): App\Helpers\TelegramBotService->sendMessage('\xD8\xA8\xD8\xB1\xD8\xA7\xDB\x8C \xD8\xB4\xD8\xB1\xD9\x88...', Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:04:40  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725073
+ref.message.message_id= 250
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1721268279
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u0646\u0627\u0634\u0646\u0627\u0633","request_contact":"","request_location":"\/request"}]]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint('sendMessage', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(27): Telegram->sendMessage(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(21): App\Helpers\TelegramBotService->sendMessage('\xD8\xA8\xD8\xB1\xD8\xA7\xDB\x8C \xD8\xB4\xD8\xB1\xD9\x88...', Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:05:01  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725074
+ref.message.message_id= 251
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1721268301
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u0646\u0627\u0634\u0646\u0627\u0633","request_contact":"","request_location":"\/request"}]]}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint('sendMessage', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(27): Telegram->sendMessage(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(21): App\Helpers\TelegramBotService->sendMessage('\xD8\xA8\xD8\xB1\xD8\xA7\xDB\x8C \xD8\xB4\xD8\xB1\xD9\x88...', Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:08:58  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725077
+ref.message.message_id= 256
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1721268538
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.reply_markup= {"keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u0646\u0627\u0634\u0646\u0627\u0633","request_contact":"","request_location":"\/request"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint('sendMessage', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(27): Telegram->sendMessage(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(21): App\Helpers\TelegramBotService->sendMessage('\xD8\xA8\xD8\xB1\xD8\xA7\xDB\x8C \xD8\xB4\xD8\xB1\xD9\x88...', Array, NULL, 'full')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:10:09  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725078
+ref.message.message_id= 257
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1721268609
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.reply_markup= {"keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u0646\u0627\u0634\u0646\u0627\u0633","request_contact":"","request_location":"\/request"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint('sendMessage', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(27): Telegram->sendMessage(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(21): App\Helpers\TelegramBotService->sendMessage('\xD8\xA8\xD8\xB1\xD8\xA7\xDB\x8C \xD8\xB4\xD8\xB1\xD9\x88...', Array, NULL, 'full')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:10:49  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse keyboard button: Field "request_contact" must be of type Boolean
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725079
+ref.message.message_id= 258
+ref.message.from.id= 937286507
+ref.message.from.is_bot= false
+ref.message.from.first_name= لاراپلاس | laraplus.ir
+ref.message.from.username= laraplus_ir
+ref.message.from.language_code= en
+ref.message.chat.id= 937286507
+ref.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.message.chat.username= laraplus_ir
+ref.message.chat.type= private
+ref.message.date= 1721268648
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.reply_markup= {"keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u0646\u0627\u0634\u0646\u0627\u0633","request_contact":"","request_location":"\/request"}]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint('sendMessage', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(27): Telegram->sendMessage(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(21): App\Helpers\TelegramBotService->sendMessage('\xD8\xA8\xD8\xB1\xD8\xA7\xDB\x8C \xD8\xB4\xD8\xB1\xD9\x88...', Array, NULL, 'full')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#7 {main}
+
+============[Date]============
+[ 2024-07-18 02:30:22  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725100
+ref.callback_query.id= 4025614898281853850
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 286
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721269819
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 286
+ref.reply_markup= {"remove_keyboard":true,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL, 'inline')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(51): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(28): App\Http\Controllers\AnonymousChatBotController->handleRequestForChat()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#9 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#10 {main}
+
+============[Date]============
+[ 2024-07-18 02:30:22  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725100
+ref.callback_query.id= 4025614898281853850
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 286
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721269819
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"remove_keyboard":true,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(61): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(28): App\Http\Controllers\AnonymousChatBotController->handleRequestForChat()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#8 {main}
+
+============[Date]============
+[ 2024-07-18 02:30:29  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725102
+ref.callback_query.id= 4025614896837754841
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 288
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721269826
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text=  در حال دریافت اطلاعات ... لطفا صبر کنید 
+ref.message_id= 288
+ref.reply_markup= {"remove_keyboard":true,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...', NULL, NULL, NULL, 'inline')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\BaseController.php(63): App\Helpers\TelegramBotService->editOrSendNewMessage(' \xD8\xAF\xD8\xB1 \xD8\xAD\xD8\xA7\xD9\x84 \xD8\xAF...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(51): App\Http\Controllers\BaseController->showLoading(Object(App\Helpers\TelegramBotService))
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(28): App\Http\Controllers\AnonymousChatBotController->handleRequestForChat()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#9 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#10 {main}
+
+============[Date]============
+[ 2024-07-18 02:30:29  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725102
+ref.callback_query.id= 4025614896837754841
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 288
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721269826
+ref.callback_query.message.text= برای شروع چت ناشناس روی این دکمه کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= شروع چت ناشناس
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /request
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /request
+
+
+[ref]
+ref.text= درخواست شما ایجاد شد. منتظر بمانید...
+ref.message_id= 
+ref.reply_markup= {"remove_keyboard":true,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(61): App\Helpers\TelegramBotService->editMessage('\xD8\xAF\xD8\xB1\xD8\xAE\xD9\x88\xD8\xA7\xD8\xB3\xD8\xAA ...', NULL, Array)
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(28): App\Http\Controllers\AnonymousChatBotController->handleRequestForChat()
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#8 {main}
+
+============[Date]============
+[ 2024-07-18 02:38:20  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725112
+ref.callback_query.id= 4025614895823828543
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 302
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721270297
+ref.callback_query.message.text= برای تغییر هر یک از تنظیمات، روی گزینه های زیر کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= نام شما
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /set_name
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= سن شما
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /set_age
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= جنسیت شما
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /set_sex
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /set_name
+
+
+[ref]
+ref.text= نام خود را وارد کنید:
+ref.message_id= 302
+ref.reply_markup= {"remove_keyboard":true,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage('\xD9\x86\xD8\xA7\xD9\x85 \xD8\xAE\xD9\x88\xD8\xAF \xD8...', NULL, NULL, NULL, 'inline')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(126): App\Helpers\TelegramBotService->editOrSendNewMessage('\xD9\x86\xD8\xA7\xD9\x85 \xD8\xAE\xD9\x88\xD8\xAF \xD8...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(44): App\Http\Controllers\AnonymousChatBotController->handleEditName()
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
+============[Date]============
+[ 2024-07-18 02:38:34  UTC ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard expected
+=========[Sent Data]==========
+[ref]
+ref.update_id= 3725114
+ref.callback_query.id= 4025614897579877979
+ref.callback_query.from.id= 937286507
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.from.username= laraplus_ir
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 302
+ref.callback_query.message.from.id= 7341111656
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= ربات تستی
+ref.callback_query.message.from.username= laraplustestbot
+ref.callback_query.message.chat.id= 937286507
+ref.callback_query.message.chat.first_name= لاراپلاس | laraplus.ir
+ref.callback_query.message.chat.username= laraplus_ir
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1721270297
+ref.callback_query.message.text= برای تغییر هر یک از تنظیمات، روی گزینه های زیر کلیک کن
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= نام شما
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /set_name
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= سن شما
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= /set_age
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= جنسیت شما
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= /set_sex
+ref.callback_query.chat_instance= 7448303176259142142
+ref.callback_query.data= /set_name
+
+
+[ref]
+ref.text= نام خود را وارد کنید:
+ref.message_id= 302
+ref.reply_markup= {"remove_keyboard":true,"selective":true}
+
+
+============[Trace]===========
+#0 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log(Array, Array)
+#1 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 D:\laragon-new\www\php\telegram-robots\cryptocurrency\vendor\eleirbag89\telegrambotphp\Telegram.php(687): Telegram->endpoint('editMessageText', Array)
+#3 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(47): Telegram->editMessageText(Array)
+#4 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Helpers\TelegramBotService.php(54): App\Helpers\TelegramBotService->editMessage('\xD9\x86\xD8\xA7\xD9\x85 \xD8\xAE\xD9\x88\xD8\xAF \xD8...', NULL, NULL, NULL, 'inline')
+#5 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(126): App\Helpers\TelegramBotService->editOrSendNewMessage('\xD9\x86\xD8\xA7\xD9\x85 \xD8\xAE\xD9\x88\xD8\xAF \xD8...')
+#6 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Http\Controllers\AnonymousChatBotController.php(44): App\Http\Controllers\AnonymousChatBotController->handleEditName()
+#7 D:\laragon-new\www\php\telegram-robots\cryptocurrency\App\Core\Router.php(93): App\Http\Controllers\AnonymousChatBotController->inbounce()
+#8 D:\laragon-new\www\php\telegram-robots\cryptocurrency\public\index.php(32): App\Core\Router->match('inbounce')
+#9 {main}
+
